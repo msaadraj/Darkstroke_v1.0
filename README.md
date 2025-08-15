@@ -149,14 +149,14 @@ java -jar target/darkstroke-sim-client.jar
 <h2>📸 Screenshots / Demo:</h2>
 <p>Below is a preview of the DarkStroke v1.0 in action:</p>
 
-<h3>🔐 Server Startup:</h3>
-<img src="https://github.com/msaadraj/Password_Manager/blob/main/Password%20Manager%20Screenshots/1.PNG" alt="Password Generation Screenshot" width="600" />
+<h3>🔐 Sreenshots Save in Server:</h3>
+<img src="https://github.com/msaadraj/Darkstroke_v1.0/blob/main/Screenshot/SS.jpg" alt="Password Generation Screenshot" width="600" />
 
 <h3>🧪 Capturing Keystrokes:</h3>
-<img src="https://github.com/msaadraj/Password_Manager/blob/main/Password%20Manager%20Screenshots/2.PNG" alt="Password Checker Screenshot" width="600" />
+<img src="https://github.com/msaadraj/Darkstroke_v1.0/blob/main/Screenshot/STartup.jpg" alt="Password Checker Screenshot" width="600" />
 
-<h3> Sreenshots Save in Server:</h3>
-<img src="https://github.com/msaadraj/Password_Manager/blob/main/Password%20Manager%20Screenshots/2.PNG" alt="Password Checker Screenshot" width="600" />
+<h3> Server Startup:</h3>
+<img src="https://github.com/msaadraj/Darkstroke_v1.0/blob/main/Screenshot/capture.jpg" alt="Password Checker Screenshot" width="600" />
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
