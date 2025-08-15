@@ -1,0 +1,53 @@
+TODO : Why The Client Program ends after just few seconds 
+(It needs that before opening me the server should be already open) !!
+
+
+
+We added Keyboard All Events (Pressed + Type + Released)
+AS well as Mouse Events (mouse movement & scroll events - Mouse Clicks (Right + Left))
+
+
+Keyloggers typically use symmetric encryption methods, such as AES (Advanced Encryption Standard), to encrypt captured keystrokes.
+Symmetric encryption uses the same key for both encryption and decryption
+
+Window Title Tracking
+Detect which application/window is currently active when a key is pressed.
+Example: "User typed 'abc' in Google Chrome – Window: 'YouTube - Chrome'".
+This adds context to your logs.
+
+Clipboard Monitoring
+Capture copy-paste events (Ctrl+C, Ctrl+V) and log clipboard content.
+Useful for catching sensitive data. (⚠ Only for ethical/authorized usage!)
+
+Screenshot on Trigger
+Take a screenshot whenever:
+User presses Enter
+Mouse click happens in a specific window
+Certain keyword is typed (like "password" or "login")
+Send the screenshot to the server for visual context.
+
+Log time and date for each key press.
+
+Keystroke Burst Compression
+Instead of sending every single key in real time, store them in a buffer and send in chunks.
+Reduces network load and makes logs cleaner.
+
+Keyword Alerts
+If certain keywords are typed ("admin", "root", "bank"), trigger an instant alert to the server.
+
+Idle Time Detection
+Detect when the user is inactive (no keyboard/mouse events for X seconds) and send an “Idle” status.
+Useful for behavioral analysis.
+
+9. Multi-threaded Event Handling
+Use separate threads for:
+Keyboard events
+Mouse events
+Network sending
+
+Prevents lag if one task is slow.
+
+10. Data Encryption Before Sending
+Encrypt keystrokes and mouse logs before sending to the server.
+
+Even if intercepted, data stays secure.
