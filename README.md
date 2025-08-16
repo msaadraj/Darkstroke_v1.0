@@ -1,4 +1,4 @@
-<!-- Personal header (keeps your original profile info) -->
+
 <h1 align="center">Hi 👋, I am Muhammad Saad</h1>
 <h3 align="center">A passionate Java developer & cybersecurity enthusiast from Pakistan</h3>
 
